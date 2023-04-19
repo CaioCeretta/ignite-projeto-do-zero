@@ -1,0 +1,51 @@
+// TODO
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 1120px;
+  height: 400px;
+  background-size: cover;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.title {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+
+}
+
+.postMisc {
+
+  margin-bottom: 1.5rem;
+
+  span {
+    svg {
+      margin-right: 0.2rem;
+    }
+
+    & + span {
+      margin-left: 0.75rem;
+    }
+  }
+
+}
+
+.post_content {
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .content {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    margin-bottom: 1.5rem;
+
+  }
+}
